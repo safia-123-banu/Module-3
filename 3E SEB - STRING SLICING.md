@@ -23,8 +23,16 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+tuple1=eval(input())
+tuple2=eval(input())
+tuple1,tuple2=tuple2,tuple1
+print(tuple1)
+print(tuple2)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/ecbd1c13-6444-471f-b88f-7a82c61b871a)
+
 
 ### RESULT
+Thus the Python program to swap the values of two tuples was executed successfully and verified.
